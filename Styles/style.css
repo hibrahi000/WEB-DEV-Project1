@@ -24,10 +24,16 @@ body{
 
 
 .logoLoc{
-    margin-bottom: 2%;
+   text-align: center;
 }
 
-
+#logo{
+    
+    height: 300px;
+    width: 800px;
+    border-style: groove;
+    border-color: gray;
+}
 
 
 .linkLoc{
