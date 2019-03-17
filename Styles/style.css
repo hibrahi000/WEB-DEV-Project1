@@ -101,7 +101,10 @@ fieldset{
     display: inline-block;
 }
 
-
+#turtlePic img{
+    height: 360;
+    width: 480;
+}
 #product{
     overflow-y: scroll;
 }
