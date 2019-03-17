@@ -91,7 +91,7 @@ fieldset{
     background-color: black;
     border: none;
     width: 60%;
-    height: 300px;
+    height: auto;
     overflow: none;
     color: aquamarine;
 }
@@ -160,8 +160,7 @@ fieldset{
 
 #wrapper ul {
     padding: 0;
-    margin: auto;
-    width: 80%;
+    width: 90%;
     list-style-type: none;
 }
 
