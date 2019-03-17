@@ -52,7 +52,7 @@ body{
 }
 
 .navLink {
-    background-color: green;
+    background-color : aquamarine;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -132,6 +132,43 @@ fieldset{
 #submitBtn:hover {
     opacity: 1;
 }
+
+.grid-container{
+
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+ 
+
+
+#wrapper ul {
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    list-style-type: none;
+}
+
+#wrapper ul li {
+    background-color : aquamarine;
+    padding: 30px;
+    margin-bottom: 20px;
+    display: table;
+    width: 100%;
+    border-radius: 10px
+}
+
+#wrapper ul li img {
+    float: left;
+    max-width: 300px;
+    max-height: 300px;
+    
+}
+
+#wrapper ul li .details {float: right;width: 75%;}
+
 
 
 
