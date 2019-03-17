@@ -31,7 +31,9 @@ $(document).ready(function(){
     $("#home").slideUp();
     $("#contact").slideUp();
     $("#product").slideUp();
+    
     });
+
   });
 
   $(document).ready(function(){

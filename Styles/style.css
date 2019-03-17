@@ -69,6 +69,9 @@ body{
     width: 100%;
     align-content: center;
     margin-bottom: 0;
+    position: relative;
+    bottom: 0;
+
 }
 
 .footer p {
@@ -92,6 +95,19 @@ fieldset{
     color: aquamarine;
 }
 
+
+
+#home{
+    display: inline-block;
+}
+
+
+#product{
+    overflow-y: scroll;
+}
+
+
+
 #contact input {
     width: 100%;
     line-height: 2em;
@@ -108,7 +124,7 @@ fieldset{
     background-color: green;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 4px;
     text-align: center;
     font-size: 16px;
     /* margin: 4px 2px; */
@@ -118,6 +134,7 @@ fieldset{
     text-decoration: none;
     cursor: pointer;
     border-radius: 20px;
+    
 }
 
 #submitBtn:hover {
@@ -125,4 +142,6 @@ fieldset{
 }
 
 
-
+.subLoc{
+    text-align: center;
+}

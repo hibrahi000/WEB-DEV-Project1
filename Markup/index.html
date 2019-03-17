@@ -22,7 +22,7 @@
                     <button class="navLink">About Us</button>
                 </div>
                 <div id="productBtn" class="links">
-                    <button class="navLink">Our Product</button>
+                    <button class="navLink">Our Products</button>
                 </div>
                 <div id="contactBtn" class="links">
                     <button class="navLink">Contact Us</button>                  
@@ -91,30 +91,35 @@
 
             <div class="name">
                 <label for="">Full Name:</label>
-                <br>
-                <input type="text" placeholder="jane doe">
+                
+                <input type="text" placeholder="jane doe" required>
             </div>
 
             <div class="email">
                 <label for="">Email Address:</label>
-                <br>
-                <input type="text" placeholder="janedoe@mail.com">
+                
+                <input type="email" placeholder="janedoe@mail.com" required>
             </div>
 
             <div class="gender">
                     <label for="">Gender:</label>
-                    <br>
-                    <input type="text" placeholder="---">
+                    
+                    <input type="text" placeholder="---" required list="gender">
+                    <datalist id="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </datalist>
             </div>
 
             <div class="phoneNumber">
                 <label for="">Phone Number:</label>
-                <br>
-                <input type="text" placeholder="(012)-345-6789">
+                
+                <input type="text" placeholder="(012)-345-6789" required>
             </div>
 
-            <div>
-                <button id="submitBtn">Submit</button>
+            <div class="subLoc">
+                <input type='submit' id="submitBtn"></input>
             </div>
         </fieldset>
          <div class="footer">
