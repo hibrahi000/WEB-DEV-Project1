@@ -43,14 +43,15 @@ body{
 }
 
 .navLink {
-    background-color: green;
+    background-color : aquamarine;
     border: none;
-    color: white;
+    color: black;
+    
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
     /* margin: 4px 2px; */
-    opacity: 0.6;
+    opacity: 0.8;
     transition: 0.3s;
     display: inline;
     text-decoration: none;
@@ -106,7 +107,7 @@ fieldset{
     width: 480;
 }
 #product{
-    overflow-y: scroll;
+
 }
 
 
@@ -145,6 +146,46 @@ fieldset{
     opacity: 1;
     
 }
+
+.grid-container{
+
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+ 
+
+
+#wrapper ul {
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    list-style-type: none;
+}
+
+#wrapper ul li {
+    background-color : black;
+    padding: 30px;
+    margin-bottom: 20px;
+    display: table;
+    width: 100%;
+    border-style: groove;
+    border-color: aquamarine;
+    border-radius: 10px;
+    
+}
+
+#wrapper ul li img {
+    float: left;
+    max-width: 300px;
+    max-height: 300px;
+    
+}
+
+#wrapper ul li .details {float: right;width: 75%;}
+
 
 
 .subLoc{
