@@ -1,17 +1,8 @@
 
 
-
-
-
-
-
-
-
-
-
-
 body{
     background-color: #000000;
+    overflow-y: scroll;
 }
 
 
@@ -54,12 +45,13 @@ body{
 .navLink {
     background-color : aquamarine;
     border: none;
-    color: white;
+    color: black;
+    
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
     /* margin: 4px 2px; */
-    opacity: 0.6;
+    opacity: 0.8;
     transition: 0.3s;
     display: inline;
     text-decoration: none;
@@ -72,19 +64,22 @@ body{
 }
 
 
-footer{
+.footer{
     background-color: aquamarine;
     height: 100px;
     width: 100%;
     align-content: center;
     margin-bottom: 0;
+    position: relative;
+    bottom: 0;
+
 }
 
-footer p {
-    
+.footer p {
+    margin-top: 1%;
     padding-top: 40px;
     text-align: center ;
-    cursor: pointer;
+    
     
 }
 
@@ -96,10 +91,26 @@ fieldset{
     background-color: black;
     border: none;
     width: 60%;
-    height: 300px;
+    height: auto;
     overflow: none;
     color: aquamarine;
 }
+
+
+
+#home{
+    display: inline-block;
+}
+
+#turtlePic img{
+    height: 360;
+    width: 480;
+}
+#product{
+
+}
+
+
 
 #contact input {
     width: 100%;
@@ -117,7 +128,7 @@ fieldset{
     background-color: green;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 4px;
     text-align: center;
     font-size: 16px;
     /* margin: 4px 2px; */
@@ -127,10 +138,13 @@ fieldset{
     text-decoration: none;
     cursor: pointer;
     border-radius: 20px;
+    
+    
 }
 
 #submitBtn:hover {
     opacity: 1;
+    
 }
 
 .grid-container{
@@ -146,18 +160,20 @@ fieldset{
 
 #wrapper ul {
     padding: 0;
-    margin: auto;
-    width: 80%;
+    width: 90%;
     list-style-type: none;
 }
 
 #wrapper ul li {
-    background-color : aquamarine;
+    background-color : black;
     padding: 30px;
     margin-bottom: 20px;
     display: table;
     width: 100%;
-    border-radius: 10px
+    border-style: groove;
+    border-color: aquamarine;
+    border-radius: 10px;
+    
 }
 
 #wrapper ul li img {
@@ -171,4 +187,6 @@ fieldset{
 
 
 
-
+.subLoc{
+    text-align: center;
+}
