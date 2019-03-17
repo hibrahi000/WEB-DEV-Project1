@@ -114,8 +114,11 @@ fieldset{
 
 #contact input {
     width: 100%;
-    line-height: 2em;
-    margin-bottom: 1em;
+    line-height: 3em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    padding-left: 2%;
+    font-size: 12px;
 }
 
 #contact label {
@@ -124,6 +127,7 @@ fieldset{
 }
 
 #submitBtn {
+    width: 30% !important;
     margin-top: 1em;
     background-color: green;
     border: none;
@@ -132,18 +136,23 @@ fieldset{
     text-align: center;
     font-size: 16px;
     /* margin: 4px 2px; */
-    opacity: 0.6;
+    opacity: 0.8;
     transition: 0.3s;
     display: inline;
     text-decoration: none;
     cursor: pointer;
     border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
     
     
 }
 
 #submitBtn:hover {
+    width: 102% !important;
     opacity: 1;
+    background-color: chartreuse;
+    color: green;
     
 }
 
