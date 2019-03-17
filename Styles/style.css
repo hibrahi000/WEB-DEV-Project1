@@ -11,7 +11,7 @@
 
 
 body{
-    background-color: white
+    background-color: #000000;
 }
 
 
@@ -25,18 +25,23 @@ body{
 
 .logoLoc{
    text-align: center;
+    background-color: #000000;
+    
+    
+    
 }
 
 #logo{
     height: 300px;
     width: 800px;
-    border-style: groove;
-    border-color: gray;
+    border: none;
+  
 }
 
 
 .linkLoc{
     position: relative;
+
 }
 .links{
     display: inline-block;
@@ -69,12 +74,14 @@ body{
 
 footer{
     background-color: aquamarine;
-    height: 200px;
+    height: 140px;
+    width: 100%;
     align-content: center;
 }
 
 footer p {
-    padding-top: 100px;
+    
+    padding-top: 55px;
     text-align: center ;
     cursor: pointer;
     
@@ -83,9 +90,13 @@ footer p {
 fieldset{
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 3%;
     display: none;
     background-color: #f2f2f2;
     border-radius: 10px;
+    width: 60%;
+    height: 300px;
+    overflow: scroll;
 }
 
 #contact input {
